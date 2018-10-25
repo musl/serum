@@ -1,4 +1,4 @@
-version.go
+*.gen.go
 *.out
 *.png
 *.test

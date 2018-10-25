@@ -1,3 +1,7 @@
 package serum
 
-//go:generate bash ./version.gen.go.sh
+//go:generate bash ./constants.gen.go.sh
+
+// Model describes
+type Model interface {
+}
