@@ -13,3 +13,7 @@ func TestVersion(t *testing.T) {
 func TestRevision(t *testing.T) {
 	assert.Regexp(t, `^[[:xdigit:]]{40}$`, Revision)
 }
+
+func TestAuthors(t *testing.T) {
+	assert.NotEmpty(t, Authors)
+}
