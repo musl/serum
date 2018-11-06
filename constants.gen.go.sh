@@ -9,7 +9,7 @@ const (
 
 	// Revision is the DVCS commit ID for this code, copied from the
 	// most recent commit on this branch.
-	Revision = \``git rev-parse HEAD 2>/dev/null || echo 0000000000000000000000000000000000000000`\`
+	Revision = \``git rev-parse HEAD 2>/dev/null`\`
 
 	// Contributors is a list of all of the contributors to this code.
 	Contributors = \``cat CONTRIBUTORS`\`
